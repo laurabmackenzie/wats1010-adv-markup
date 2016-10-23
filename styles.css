@@ -1,1 +1,53 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  margin: 50px 100px 50px 100px;
+}
+header {
+  padding: 2rem;
+  padding-left: 0;
+}
+header h1 {
+  padding: 1rem;
+}
+nav ul {
+  padding: 0rem;
+}
+
+nav ul li {
+  display: inline;
+  padding: 1rem;
+}
+
+aside#sidebar {
+  float: right;
+  margin: -50px 50px 20px 100px;
+  width: 40%;
+  border-style:solid;
+  padding: 1rem;
+}
+footer p {
+  padding: 1rem;
+}
+
+section#content ul {
+  margin-top: 0px;
+  list-style-type: none;
+  font-style: italic;
+  font-size: 150%;
+  padding: 1rem;
+}
+section h2 {
+  margin-left: 5px;
+}
+
+.poem li {
+  line-height: 1.5;
+}
+p.bio-photo {
+  float:left;
+  margin: 0 0 25px 0;
+  width: 40%;
+  text-align:center;
+  font-weight:bold;
+  padding:1rem;
+}
